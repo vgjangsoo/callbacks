@@ -5,7 +5,7 @@ function findWaldo(arr, found) {
   arr.forEach(function(element) {
     if (element === "Waldo") {
       found(element);
-  };
+    };
   });
 
   // console.log(arr);
